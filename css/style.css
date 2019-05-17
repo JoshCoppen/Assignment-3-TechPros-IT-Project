@@ -1,13 +1,13 @@
-﻿a:link{color:#fff;text-decoration:none;}
-a:visited{color:#fff;text-decoration:none;}
+﻿a:link{color:black;text-decoration:none;}
+a:visited{color:black;text-decoration:none;}
 a:hover{color:#ddd; background-color:transparent;text-decoration:none;}
 a:active{color:#999;text-decoration:none;}
 a{font-family: 'Raleway', sans-serif;}
 a.small{font-size:100%;}
 body {
-	background-color:black;
+	
 	font-family: 'Raleway', sans-serif;
-	color: #999;
+	color: black;
 }
 .container {
 width:80%;margin:0 auto;min-width: 700px;max-width:1500px;
@@ -26,13 +26,13 @@ nav {
 	
 	
 section {
-	width:100%;font-size:18px;text-align:center;border-style:outset;border-width:2px;margin:2px;
+	width:100%;font-size:18px;text-align:center;border-style:outset;border-width:2px;margin:2px; border-color: #656565; box-shadow: 2px 2px 2px 2px;
 	}
-	
+	 
 article {
 	margin:50px;
 	padding: 20px;
-	border-style:outset;border-width:5px;
+	border-style:outset;border-width:5px; border-color: #656565; box-shadow: 2px 2px;
 	font-family: 'Raleway', sans-serif;
 	}
 	
@@ -63,6 +63,11 @@ img.img2 {
 	max-width: 95%;
 }
 
+.navimg {
+    
+    color: black;
+}
+
 ul.table {
 	display: inline-block;
 	text-align: left;
@@ -88,12 +93,12 @@ font-size: 100%;
 
 }
 b.fff {
-	color: #fff;
+	color: black;
 	font-family: 'Arial', sans-serif;
 }
 
 h1.fff {
-	color: #fff;
+	color: black;
 	font-family: 'Arial', sans-serif;
 }
 
@@ -101,6 +106,7 @@ h1.fff {
 table, td, th {    
     border: 1px solid #ddd;
     text-align: left;
+    
 }
 
 table {
@@ -111,8 +117,8 @@ table {
 
 th, td {
     padding: 3px;
-	background-color: #666;
-    color: #FFF;
+	background-color: #f2f2f2;
+    color: black;
 	text-align: center;
 }
 td.small {
